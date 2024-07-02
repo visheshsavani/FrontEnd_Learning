@@ -1,0 +1,6 @@
+hierachy of box  model :-
+
+margin
+border
+padding
+content

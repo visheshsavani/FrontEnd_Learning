@@ -1,0 +1,40 @@
+/* pre{
+    background-color: brown;
+    color: white;
+} */
+
+/* These are the ways in which we can put color in CSS */
+/* p{
+    background-color: brown;
+    /* The above is direct method 
+} */
+
+#para1{
+    color: rgb(26, 231, 128);
+    /* the above is using rgb(red green blue) */
+}
+
+.para3{
+    color: #2596be;
+    /* the above is using hex code */
+}
+
+h1{
+    color: hsl(280, 65%, 50%);
+    /* the above is using hsl(hue,saturation,lightness) */
+}
+
+/* In Background
+we can put color,image,repeat or not,position etc
+the below is an eg */
+/* body{
+    background: url('https://imgs.search.brave.com/pHwqhDLPjhKHhWcO9jgw8thnROBqflrlxjuxdRVauA0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9z/cG90bGlnaHRzLWJh/Y2tncm91bmRfMTQw/OS0xODAwLmpwZz9z/aXplPTYyNiZleHQ9/anBn') no-repeat right top;
+} */
+
+/* In borders we can put color its style the width in px etc
+the below one is eg */
+/* h1{
+    border: 2px solid blue;
+    border-top: dotted; 
+    border-style: dashed;
+} */ 

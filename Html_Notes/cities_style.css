@@ -1,0 +1,41 @@
+#Cities{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Cities td,#Cities th{
+    border: 2px solid #ddd;
+}
+
+#Cities td{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#Cities tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#Cities tr:hover{
+    background-color: #ddd;
+}
+
+/* :link is used if the link is not visited */
+a:link{
+    color: red;
+}
+/* :visited is used if the link is visited */
+a:visited{
+    color: green;
+}
+/* :hover it will show the given properties when hovered */
+a:hover{
+    color: rgb(184, 151, 151);
+}
+/* :active it will show these properties when cursor is press */
+a:active{
+    color:bisque;
+}
